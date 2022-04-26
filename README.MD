@@ -1,3 +1,8 @@
+Changes made to 10c (update on 04/26/22):
+
+* Kindra migraged from nazsis to iboereports. Duplicate domains were created. I added a button "Delete Duplicates" to the domain list. Also, when deleting
+  a single domain, I took out the error that would not allow save if there were duplicate domain names.
+
 Changes made to 10c (update on 04/03/22):
 
 * I had made a generation change for Jeff on 08/27/21 for nmmftm where he wants top menu across but had a top banner to include. That messed up nmm where there
