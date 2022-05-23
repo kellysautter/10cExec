@@ -1,3 +1,10 @@
+Change 05/23/22
+
+* If generating jsp using Bootstrap and a field in a grid has a domain type of  "Number" or "Decimal" AND there is not CSS with "text-left" in it, 
+  we add the class of "text-right" to right align fields.
+
+* This also contains some code by Don C. for LOD attribute/derived rules but that code is not yet completed.
+
 Changes made to 10c (update on 04/26/22):
 
 * Kindra migraged from nazsis to iboereports. Duplicate domains were created. I added a button "Delete Duplicates" to the domain list. Also, when deleting
