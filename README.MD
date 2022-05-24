@@ -1,3 +1,9 @@
+Change 05/24/22
+
+* Some changes had been made for bootstrap main navigation menu when there was a banner specified (this was for
+  Jeff nmmftm) and this messed up the top menu in nmm (where no banner was specified). The top menu for bootstrap
+  that is horizontal AND no specified banner, should now generate as it had originally.
+
 Change 05/23/22
 
 * If generating jsp using Bootstrap and a field in a grid has a domain type of  "Number" or "Decimal" AND there is not CSS with "text-left" in it, 
