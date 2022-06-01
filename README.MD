@@ -1,3 +1,10 @@
+Changes 06/01/22
+
+* KJS changes for Workstation Migration. More duplication elimination. Also allows user to start with moving a LOD like
+  sHost.LOD and it will create the ER/PDG/LOD etc.
+* Took "size=" off of grid edit control when bootstrap.
+* Took "style=width:80px" off of grid calendar control when bootstrap.
+
 Change 05/24/22
 
 * Some changes had been made for bootstrap main navigation menu when there was a banner specified (this was for
