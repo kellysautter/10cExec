@@ -1,4 +1,5 @@
 Changes 06/01/22
+* Now put back size on grid edit control
 
 * KJS changes for Workstation Migration. More duplication elimination. Also allows user to start with moving a LOD like
   sHost.LOD and it will create the ER/PDG/LOD etc.
