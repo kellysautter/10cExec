@@ -1,3 +1,7 @@
+Changes 06/20/22
+* Fix for MLEdit control in grid (previously only putting an Edit field).
+
+
 Changes 06/01/22
 * Now put back size on grid edit control
 
