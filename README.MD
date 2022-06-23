@@ -1,3 +1,8 @@
+Changes 06/23/22
+* Fixed issue where when migrating a Dialog with more than one source file, it didn't create all of the source files.
+* Also, the vml files did not get copied during migration. Added this in. If the file is java or scala it is still incorrect. Need to change the
+  sourcefile location in tzwdlgso.vml.
+
 Changes 06/20/22
 * Fix for MLEdit control in grid (previously only putting an Edit field).
 
