@@ -1,5 +1,16 @@
+Changes 08/12/22
+
+* Disable in Common was not working for MLEdit and for "Select Entity" combo box. This has been fixed.
+
 Change 07/27/22
 * For grids, when a fields was "", we were putting in &nbsp. Now keeps as "".
+
+Changes 07/26/22
+* Migration fix - copy over all source files (was not looping through all the source files for a dialog/object.
+* Changed some tools naming to "Information Centric". Not sure this is permanent...
+* JSP Generation - 
+  took out Calendar size in grid
+  MLEdit in grid
 
 Changes 06/23/22
 * Fixed issue where when migrating a Dialog with more than one source file, it didn't create all of the source files.
