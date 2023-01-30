@@ -1,3 +1,7 @@
+Changes 01/30/23
+* Made a change to jsp generation, for the reusable top menu, with horizontal menu actions and a banner.
+* Changes made by Don C for Autodesign. This is code in progress and not complete. 
+
 Changes 08/12/22
 
 * Disable in Common was not working for MLEdit and for "Select Entity" combo box. This has been fixed.
