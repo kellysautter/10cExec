@@ -1,3 +1,8 @@
+Changes 02/03/23
+* Incorporated Don C's Autodesign changes. Autodesign needs AD_Base.PWD in the c:\lplr directory.
+* If you want to change AD_Base.PWD, you would need to download the lplr project CRMBase from git@github.com:kellysautter/CRMbase.git
+  After making changes you copy AD_Base.PWD to c:\lplr.
+
 Changes 01/30/23
 * Made a change to jsp generation, for the reusable top menu, with horizontal menu actions and a banner.
 * Changes made by Don C for Autodesign. This is code in progress and not complete. 
