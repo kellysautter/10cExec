@@ -1,3 +1,6 @@
+Changes 02/09/23
+* Autodesign fixes.
+
 Changes 02/03/23
 * Incorporated Don C's Autodesign changes. Autodesign needs AD_Base.PWD in the c:\lplr directory.
 * If you want to change AD_Base.PWD, you would need to download the lplr project CRMBase from git@github.com:kellysautter/CRMbase.git
