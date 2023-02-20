@@ -1,3 +1,9 @@
+Change 02/20/23
+* On the Feb 3, 2023 commit, I committed a couple of files with an old date (tztedblo.xdl, tzopsigd.xwd and tzzolodd.xwd).
+  This includes the newer files.
+* This includes executables that were built on a different machine than previous versions. Hopefully should not
+  cause any issues.
+
 Changes 02/09/23
 * Autodesign fixes.
 
