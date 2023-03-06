@@ -1,3 +1,6 @@
+Changes 03/06/23
+* Due to changes for autodesign, an error occurred that affected the rebuild of xods. This has been fixed.
+
 Change 02/20/23
 * On the Feb 3, 2023 commit, I committed a couple of files with an old date (tztedblo.xdl, tzopsigd.xwd and tzzolodd.xwd).
   This includes the newer files.
