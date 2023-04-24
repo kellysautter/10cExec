@@ -1,3 +1,9 @@
+Changes 04/24/23
+* Don's changes for autodesign and ER Import from database
+* Added comment for action termination zWAB_StayOnWindowWebRefresh when there is javascript. The javascript
+  is added to JSP action, not the js.
+* Fix - Repeating Group did not have unique name for Grid.
+
 Changes 03/06/23
 * Due to changes for autodesign, an error occurred that affected the rebuild of xods. This has been fixed.
 
