@@ -1,3 +1,9 @@
+Changes 06/15/23
+* Fix for Copy Dialog Window (reported by Kindra)
+* Change to Exit Task termination. If there is an operation or Next Dialog Window, we do not use the generic _OnUnload action.
+  Otherwise, the action stays the same.
+* More of Don's autodesign changes (not complete)
+
 Changes 04/24/23
 * Don's changes for autodesign and ER Import from database
 * Added comment for action termination zWAB_StayOnWindowWebRefresh when there is javascript. The javascript
