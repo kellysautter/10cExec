@@ -1,3 +1,6 @@
+Changes 07/07/23
+* Fixed error in GenJSP_MenuFunctionsRecurs that I introduced with last push, Exit Task termination.   (reported by Kindra)
+
 Changes 06/15/23
 * Fix for Copy Dialog Window (reported by Kindra)
 * Change to Exit Task termination. If there is an operation or Next Dialog Window, we do not use the generic _OnUnload action.
