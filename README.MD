@@ -1,3 +1,8 @@
+Changes 08/18/23
+* Fix for HTML_LinkToAddress from side/top menu options (requested by Kindra).
+* Moved Action termination actions around... put most used at top of list.
+* More of Don's autodesign changes.
+
 Changes 07/07/23
 * Fixed error in GenJSP_MenuFunctionsRecurs that I introduced with last push, Exit Task termination.   (reported by Kindra)
 
