@@ -1,3 +1,6 @@
+Changes 08/22/23
+* Took out adding Number to survey questions on survey questionaire. This now should be a part of the dQuestion derived attribute.
+
 Changes 08/18/23
 * Fix for HTML_LinkToAddress from side/top menu options (requested by Kindra).
 * Moved Action termination actions around... put most used at top of list.
