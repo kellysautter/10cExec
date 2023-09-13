@@ -1,3 +1,7 @@
+Changes 09/13/23
+* Add class 'text-right' on variable header <th>, when we are generating bootstrap and the domain is a number. This was added to the normal
+  <th> but not when it was a variable header <th> (the header text is coming from a mapped object).
+
 Changes 08/22/23
 * Took out adding Number to survey questions on survey questionaire. This now should be a part of the dQuestion derived attribute.
 
