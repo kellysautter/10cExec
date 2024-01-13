@@ -1,3 +1,12 @@
+Changes 01/10/24
+* Don C's updated autodesign code.
+* Added the operation zGetAttributeDomainDataType( View, szEntityName, szAttributeName, StringBuilder szDomainType )
+* On jsp generation, eliminated the "comment line" for controls with names. Now that all controls have a name/id, this is not needed. Example:
+<% /* PushBtnSchedules:PushBtn */ %>
+<% /* GroupBox30:GroupBox */ %>
+* In the Dialog View->Control List... made a change that seems to fix the "Find by text/tag".
+
+
 Changes 09/13/23
 * Add class 'text-right' on variable header <th>, when we are generating bootstrap and the domain is a number. This was added to the normal
   <th> but not when it was a variable header <th> (the header text is coming from a mapped object).
