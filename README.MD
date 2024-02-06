@@ -1,3 +1,7 @@
+Changes 02/05/24
+* Don's autodesign changes
+* Updated AD_Base.7z
+
 Changes 01/17/24
 * Added AD_Base.7z (lplr for AD_Base), which is used by Don C's autodesign functionality.
 * Generate jsp fix - give an error if a reusable Top/Side menu or actions does not exist (reported by David Loscutoff). Was getting "Invalid View" errors.
