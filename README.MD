@@ -1,3 +1,7 @@
+Changes 02/27/24
+* Fixed Jeff's issue where in Operation "Save As..." the Source File name was being truncated to 8.
+* Fixed an error where "Save As" was giving an error when the Source/Target Source file were both "Java".
+
 Changes 02/05/24
 * Don's autodesign changes
 * Updated AD_Base.7z
