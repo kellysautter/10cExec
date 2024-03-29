@@ -1,3 +1,6 @@
+Changes 03/28/24
+* Autodesign fixes/changes by Don reported by Jeff.
+
 Changes 02/27/24
 * Fixed Jeff's issue where in Operation "Save As..." the Source File name was being truncated to 8.
 * Fixed an error where "Save As" was giving an error when the Source/Target Source file were both "Java".
