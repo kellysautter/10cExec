@@ -1,5 +1,6 @@
 Changes 04/18/24
 * Autodesign fixes/changes by Don.
+* Fix for copy/paste radio group.
 
 Changes 04/09/24
 * Autodesign fixes/changes by Don.
