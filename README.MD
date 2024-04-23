@@ -1,3 +1,6 @@
+Changes 04/22/24
+* Fix for copy grid crash.
+
 Changes 04/18/24
 * Autodesign fixes/changes by Don.
 * Fix for copy/paste radio group.
