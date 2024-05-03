@@ -1,3 +1,7 @@
+Changes 05/3/24
+* Fix for ACTIVATE with many RESTRICTIONS causing weird java error.
+* Latest Autodesign changes changes from Don.
+
 Changes 04/22/24
 * Fix for copy grid crash.
 
