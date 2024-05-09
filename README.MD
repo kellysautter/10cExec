@@ -1,3 +1,6 @@
+Changes 05/08/24
+* Fix for when Control Web Properties won't assign (and you need to close the Window).
+
 Changes 05/3/24
 * Fix for ACTIVATE with many RESTRICTIONS causing weird java error.
 * Latest Autodesign changes changes from Don.
