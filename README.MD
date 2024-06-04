@@ -1,3 +1,7 @@
+Changes 06/04/24
+* Fix for HTML_LinkToAddress from side/top menu options. I had added this but then had issues with some compatibilities... took HTML_LinkToAddress
+  off of the side/top menu options but then added them back. Forgot to uncomment code I had commented out...
+
 Changes 05/08/24
 * Fix for when Control Web Properties won't assign (and you need to close the Window).
 
