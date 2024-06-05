@@ -1,3 +1,7 @@
+Changes 06/05/24
+* Forgot to uncomment a line I had commented out when fixing the 05/08/24 issue (with web properties), so all operations
+  were being displayed in the operation drop down on the Update Action window.
+
 Changes 06/04/24
 * Fix for HTML_LinkToAddress from side/top menu options. I had added this but then had issues with some compatibilities... took HTML_LinkToAddress
   off of the side/top menu options but then added them back. Forgot to uncomment code I had commented out...
