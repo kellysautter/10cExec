@@ -1,3 +1,7 @@
+Changes 06/26/24
+* Don's changes for Merge and Migrate.
+* Fix in generation of jsp (problem with the logout not going to the logout.jsp on generate for all dialogs).
+
 Changes 06/05/24
 * Forgot to uncomment a line I had commented out when fixing the 05/08/24 issue (with web properties), so all operations
   were being displayed in the operation drop down on the Update Action window.
