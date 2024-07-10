@@ -1,3 +1,7 @@
+Changes 07/10/24
+* Took out generated js code that included "eval(...". The .focus() can easily be created using javascript in an action.
+  This was taken out becuase eval is not secure and creates issues when using <meta http-equiv="Content-Security-Policy".
+
 Changes 06/26/24
 * Don's changes for Merge and Migrate.
 * Fix in generation of jsp (problem with the logout not going to the logout.jsp on generate for all dialogs).
