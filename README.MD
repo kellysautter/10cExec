@@ -1,3 +1,6 @@
+Change 07/18/24
+* Don C's fixes for Workstation "Merge" processing 
+
 Changes 07/10/24
 * Took out generated js code that included "eval(...". The .focus() can easily be created using javascript in an action.
   This was taken out becuase eval is not secure and creates issues when using <meta http-equiv="Content-Security-Policy".
