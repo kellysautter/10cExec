@@ -1,3 +1,8 @@
+Changes 08/29/24
+* Don C's changes to "Merge" and "Autodesign"
+* Fix to file download processing (also Jasper downloads) where tomcat console displayed the following error:
+  "****  Data ERROR within <form> ***** getOutputStream() has already been called for this response" (Thanks Kindra!)
+
 Change 07/18/24
 * Don C's fixes for Workstation "Merge" processing 
 
