@@ -1,3 +1,6 @@
+Changes 10/08/24
+* Added *.xrp files to this zip
+
 Changes 08/29/24
 * Don C's changes to "Merge" and "Autodesign"
 * Fix to file download processing (also Jasper downloads) where tomcat console displayed the following error:
