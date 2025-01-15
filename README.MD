@@ -1,3 +1,13 @@
+Changes 01/14/25
+* Added two fields to Control 
+  CSS_Class2
+  WebHTML5Attribute2
+  This is so that on a checkbox we can have a css/html5 for both the checkbox <input> and the checkbox text <span>.
+* Latest updates for autodesign from Don C.
+
+Changes 01/09/25
+* Changed tzlodopr.h #define WHERE_ARRAY_SIZE 30 to #define WHERE_ARRAY_SIZE 100 (long WHERE clauses were causing an error)
+
 Changes 10/08/24
 * Added *.xrp files to this zip
 
