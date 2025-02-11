@@ -1,3 +1,6 @@
+Changes 02/10/25
+* Fixed jsp generation error where a GridComboCtl's mapping wasn't creating a View variable in DoInputMapping.
+
 Changes 01/14/25
 * Added two fields to Control 
   CSS_Class2
