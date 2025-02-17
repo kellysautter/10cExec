@@ -1,3 +1,7 @@
+Changes 02/17/25
+* Don's latest autodesign changes.
+* New AD_Base.zip the lplr used by autodesign.
+
 Changes 02/10/25
 * Fixed jsp generation error where a GridComboCtl's mapping wasn't creating a View variable in DoInputMapping.
 
