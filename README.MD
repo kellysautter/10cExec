@@ -1,3 +1,6 @@
+Changes 02/21/25
+* Fix for grid control CSS error, reported by Dave Loscutoff.
+
 Changes 02/17/25
 * Don's latest autodesign changes.
 * New AD_Base.zip the lplr used by autodesign.
