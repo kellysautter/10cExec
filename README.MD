@@ -1,3 +1,7 @@
+Changes 03/07/25
+* Added the web property 'Show/Hide Group Box' so that a group box that is not 'Toggle' can be excluded from being created on a page. Per David Loscutoff.
+  When SetCtrlState is used... with this property, the control is not build on the jsp page. Without it, the control is "hidden". Important difference if hiding something like SSN.
+
 Changes 03/06/25
 * Trying new code for grid header sort, that sorts the view not just the table entries. Per David Loscutoff.
 
