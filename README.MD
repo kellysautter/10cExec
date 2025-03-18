@@ -1,3 +1,17 @@
+Changes 03/18/25
+* Fixes/Changes for grid header sort. Now, grid must have radio button "Sort Underlying View" selected to get the OrderEntityForView to occur when header is clicked.
+* Fix so header for subentity will sort correctly.
+* If grid is a DataTable (bootstrap). Then we do not add the .\images\arrow_up/down.png because we bootstrap puts that in.
+  ** Note - if the grid is a DataTable and "Sort Underlying View" is selected, there needs to be a custom data-table .js file to disable the bootstrap ordering. Like the following.
+{
+    const vmlSortTables = $(".data-table-vmlkelly-sort");
+    // Set up VML sort tables as DataTables with a custom onclick event for column headers
+    vmlSortTables.DataTable({
+        // Disable the default client-side sorting
+        "ordering": false,
+    })
+}
+
 Changes 03/12/25
 * More changes for grid header sort, added arrow up/down on field being sorted. Per David Loscutoff.
 
