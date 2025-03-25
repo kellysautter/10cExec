@@ -1,3 +1,6 @@
+Changes 03/25/25
+* Added Attribute description field to Object Maintenance "Entity Attribute List", "View->Object Entity List" 
+
 Changes 03/18/25
 * Fixes/Changes for grid header sort. Now, grid must have radio button "Sort Underlying View" selected to get the OrderEntityForView to occur when header is clicked.
 * Fix so header for subentity will sort correctly.
