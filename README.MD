@@ -1,3 +1,6 @@
+Changes 03/31/25
+* For the "grid header vml sort", I had to fix the hard coding of "PersonList2". Oops!
+ 
 Changes 03/25/25
 * Added Attribute description field to Object Maintenance "Entity Attribute List", "View->Object Entity List" 
 
