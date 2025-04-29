@@ -1,3 +1,6 @@
+Changes 04/29/25
+* Not sure why... but Checkbox Update did not have the two css fields (checkbox/checkbox label). Resaved tzpntcad.pwd, now visible.
+
 Changes 04/21/25
 * To the Technical Environment, added a field "Schema Name" for the Data Source. For Postgres, a schema name is needed when correctly running the "Sync DDL".
 * Previously when running the "Sync DDL", the database UserID/Password was retrieved from the "[WorkStation]" portion of the zeidon.ini, which was a problem when
