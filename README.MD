@@ -1,3 +1,8 @@
+Changes 05/01/25
+* An error was introduced on a grid when the column was a "select" checkbox column, where there is no heading for the column (this puts a checkbox in the heading and "selects all" when clicked).
+  After clicking, the page blanks out.
+  This is only when the grid is of type "Sort Underlying View" and is fixed.
+
 Changes 04/29/25
 * Not sure why... but Checkbox Update did not have the two css fields (checkbox/checkbox label). Resaved tzpntcad.pwd, now visible.
 
