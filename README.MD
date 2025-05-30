@@ -1,6 +1,27 @@
+Changes 05/29/25
+* A change has been made for when we do not want users to be able to log into an application on more than one tab in a 
+  browser (zeidon.ini "NoMonitorTaskLogout=N"). In order for this to work, a link needs to be made in the loggedintotask.jsp 
+  something like the following which sends the user to the logout.jsp page:
+  <p align="center">If you believe you have received this message in error, <a href="logout.jsp">click here</a> to end your previous session.</p>
+
+  And the following needs to be added to the logout.jsp (to create a new SESSIONID):
+session.invalidate();
+
+Cookie killSessionCookie = new Cookie("JSESSIONID", null);
+killSessionCookie.setMaxAge(0);
+killSessionCookie.setPath("/"); 
+killSessionCookie.setDomain(request.getServerName());
+response.addCookie(killSessionCookie);
+
+* For our language translation with picklist (table) domains, a separate file was needed "jspWebUtilsLang.java" in the LPLR, in order to       
+  populate the combo boxes for those domains on the jsp page (call made to jspWebUtilsLang.getTableDomainValuesLanguage()).
+  I have taken that out of the jsp generation and we now always call jspWebUtils.getTableDomainValues() (this was the original
+  call for domain picklists). Code has been added to our LPLR specific domains (like DynamicTableDomainWContextAndLang.java) to
+  to use our language translation code when jspWebUtilsLang.getTableDomainValuesLanguage() is called.
+
 Changes 05/01/25
-* An error was introduced on a grid when the column was a "select" checkbox column, where there is no heading for the column (this puts a checkbox in the heading and "selects all" when clicked).
-  After clicking, the page blanks out.
+* An error was introduced on a grid when the column was a "select" checkbox column, where there is no heading for the column (this puts a checkbox 
+  in the heading and "selects all" when clicked). After clicking, the page blanks out.
   This is only when the grid is of type "Sort Underlying View" and is fixed.
 
 Changes 04/29/25
