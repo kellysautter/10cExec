@@ -1,3 +1,6 @@
+Changes 06/03/25
+* Fix for postgres sql and MM tables in the DDL creation. FK Field type was not being created.
+
 Changes 05/29/25
 * A change has been made for when we do not want users to be able to log into an application on more than one tab in a 
   browser (zeidon.ini "NoMonitorTaskLogout=N"). In order for this to work, a link needs to be made in the loggedintotask.jsp 
