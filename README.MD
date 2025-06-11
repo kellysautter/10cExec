@@ -1,3 +1,9 @@
+Changes 06/11/25
+* When a combo box is "Set Foreign Key/Select Source Entity Only", a blank entry was not being added in the jsp (Domain/Auto Include adds a blank). This is an 
+  inconsistency so we now have a blank entry automatically created for these combo boxes. 
+  Because on previous applications, we usually add a blank through VML, and this would then have two blanks, I added a tools zeidon.ini setting for this:
+  SourceEntityComboBlank=Y
+
 Changes 06/03/25
 * Fix for postgres sql and MM tables in the DDL creation. FK Field type was not being created.
 
