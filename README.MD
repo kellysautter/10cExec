@@ -1,4 +1,9 @@
 Changes 06/11/25
+* Took off 22 LOD operation limit (it's 32). I think there might be an issue when the LOD name is long but I haven't come across it yet so will try (per Alan).
+
+Changes 06/11/25
+// I had added the below code, but realized it doesn't work (which is why we hadn't done it), might still try to see if I can get it to work so I won't take out
+// since it needs an ini addition so shouldn't hurt any project.
 * When a combo box is "Set Foreign Key/Select Source Entity Only", a blank entry was not being added in the jsp (Domain/Auto Include adds a blank). This is an 
   inconsistency so we now have a blank entry automatically created for these combo boxes. 
   Because on previous applications, we usually add a blank through VML, and this would then have two blanks, I added a tools zeidon.ini setting for this:
