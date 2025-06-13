@@ -1,3 +1,8 @@
+Changes 06/13/25
+* Instead of the change I made on 06/11 for "Set Foreign Key/Select Source..", I made a change to the Auto Include to NOT add a blank to the combo if a blank (as the
+  first entry) already exists. For now this requires the zeidon.ini setting:
+  AutoIncludeComboBlank=Y
+
 Changes 06/11/25
 * Took off 22 LOD operation limit (it's 32). I think there might be an issue when the LOD name is long but I haven't come across it yet so will try (per Alan).
 
