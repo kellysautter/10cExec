@@ -1,3 +1,7 @@
+Changes 06/17/25
+* For the below Auto Include change, I needed to add a fix because of how we position on the correct entity in DoInputMapping. This is slightly different based on
+  whether or not the original map list has a blank entry or not.
+
 Changes 06/13/25
 * Instead of the change I made on 06/11 for "Set Foreign Key/Select Source..", I made a change to the Auto Include to NOT add a blank to the combo if a blank (as the
   first entry) already exists. For now this requires the zeidon.ini setting:
