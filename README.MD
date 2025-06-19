@@ -1,3 +1,6 @@
+Changes 06/19/25
+* I had to re-save TZPNTRAD.PWD/XWD. We were getting weird dialog errors (with  ActMapLOD_Entity). I think this has to do with when my "Dialog" tool was pointing to "10d" and not using %kzv (which was pointing to "10c"). 
+
 Changes 06/17/25
 * For the below Auto Include change, I needed to add a fix because of how we position on the correct entity in DoInputMapping. This is slightly different based on
   whether or not the original map list has a blank entry or not.
