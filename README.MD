@@ -1,3 +1,7 @@
+Changes 06/20/25
+* I took off using the zeidon.ini AutoIncludeComboBlank=Y for the Auto Include/Source Entity because I think we will always want it.
+* But I copied that zip file to 10cExecHFI.zip for now so that GMC will not get messed up before our monthly install. Would want to test a little further at GMC...
+
 Changes 06/19/25
 * I had to re-save TZPNTRAD.PWD/XWD. We were getting weird dialog errors (with  ActMapLOD_Entity). I think this has to do with when my "Dialog" tool was pointing to "10d" and not using %kzv (which was pointing to "10c"). 
 
