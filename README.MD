@@ -1,3 +1,6 @@
+Changes 07/08/25
+* Made the Global Operations window larger to give more space for the operation name. (Per Alan)
+
 Changes 06/20/25
 * I took off using the zeidon.ini AutoIncludeComboBlank=Y for the Auto Include/Source Entity because I think we will always want it.
 * But I copied that zip file to 10cExecHFI.zip for now so that GMC will not get messed up before our monthly install. Would want to test a little further at GMC...
