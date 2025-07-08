@@ -1,5 +1,7 @@
 Changes 07/08/25
 * Made the Global Operations window larger to give more space for the operation name. (Per Alan)
+* I had to make a fix for the AutoIncludeComboBlank (because of errors with null values). But then nRegDemographics.jsp was too big ("exceeding the 65535 bytes limit").
+  I added back needing the AutoIncludeComboBlank ini setting because I don't think we will use this code. But I don't want to delete it yet.
 
 Changes 06/20/25
 * I took off using the zeidon.ini AutoIncludeComboBlank=Y for the Auto Include/Source Entity because I think we will always want it.
