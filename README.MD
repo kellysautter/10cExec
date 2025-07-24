@@ -1,3 +1,6 @@
+Changes 07/24/2025
+* I needed to rebuild zeidon.xdm. For some reason "Show/Hide Group" web control property value was missing.
+
 Changes 07/08/25
 * Made the Global Operations window larger to give more space for the operation name. (Per Alan)
 * I had to make a fix for the AutoIncludeComboBlank (because of errors with null values). But then nRegDemographics.jsp was too big ("exceeding the 65535 bytes limit").
