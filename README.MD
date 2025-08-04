@@ -1,3 +1,5 @@
+Changes 08/04/2025
+* Needed to re-save TZPNTRAD.PWD because the window detail "Do Not log user out if multiple sessions" check box was not displaying.
 Changes 07/24/2025
 * I needed to rebuild zeidon.xdm. For some reason "Show/Hide Group" web control property value was missing.
 
