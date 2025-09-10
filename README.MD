@@ -2,7 +2,7 @@ Changes 09/10/2025
 * Added ESC action to Grid subcontrols
 
 Changes 08/25/2025
-* Don's changes for Autodesign (I believe merging operations changes).
+* Don's changes for Autodesign (includes 'option for merging selected Domains and Operations').
 
 Changes 08/04/2025
 * Needed to re-save TZPNTRAD.PWD because the window detail "Do Not log user out if multiple sessions" check box was not displaying.
