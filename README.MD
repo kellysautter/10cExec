@@ -1,3 +1,7 @@
+Change 09/16/2025
+* Some controls did not have "Change" event. And some "Change" events did not get added into the generated jsp. Specifically grid sub edit/calendar. These have been fixed.
+* Removed a Text Control field on the update text control window (TZPNCTAD.UPD_TEXT). Specifically the combo list of Font types. Want to see if this effects the slow text update.
+
 Changes 09/10/2025
 * Added ESC action to Grid subcontrols
 
