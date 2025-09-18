@@ -1,4 +1,7 @@
 Change 09/18/2025
+* Had an issue where special characters in tzedfrmd.c were wiped out by notepad. Had to re-do my code changes using Notepad++
+
+Change 09/18/2025
 * In the VML editor, two new menu options "Operations->Dialog/Object Operations List" and "Operations->Global Operations List", which will bring up a list of operations that exist for
   either the Dialog, Object or Global Operations Group. If you double click on an operation in the list, the cursor will be positioned on that operation. One issue is that for a Dialog
   this is a list of all operations no matter the Source File. If an operation from a different source file is clicked, the cursor position is not changed.
