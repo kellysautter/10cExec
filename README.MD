@@ -1,3 +1,9 @@
+Change 09/18/2025
+* In the VML editor, two new menu options "Operations->Dialog/Object Operations List" and "Operations->Global Operations List", which will bring up a list of operations that exist for
+  either the Dialog, Object or Global Operations Group. If you double click on an operation in the list, the cursor will be positioned on that operation. One issue is that for a Dialog
+  this is a list of all operations no matter the Source File. If an operation from a different source file is clicked, the cursor position is not changed.
+  A separate list of only the operations in the current source would have required changes to TZWDLGSO.LOD which I did not wish to do because it can cause issues.
+
 Change 09/16/2025
 * Some controls did not have "Change" event. And some "Change" events did not get added into the generated jsp. Specifically grid sub edit/calendar. These have been fixed.
 * Removed a Text Control field on the update text control window (TZPNCTAD.UPD_TEXT). Specifically the combo list of Font types. Want to see if this effects the slow text update.
