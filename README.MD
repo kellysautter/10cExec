@@ -1,3 +1,6 @@
+Changes 09/24/2025
+* Have streamlined jsp generation code to try and get the jsp size limit down to avoid the 6555 limit crash.
+
 Change 09/18/2025
 * Had an issue where special characters in tzedfrmd.c were wiped out by notepad. Had to re-do my code changes using Notepad++
 
