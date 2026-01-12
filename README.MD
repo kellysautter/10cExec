@@ -1,3 +1,6 @@
+Changes 01/12/26
+* Bitmap/BitmapBtn did not have HTML5 in the generation of the control (it did on bitmaps in grids). This has been added.
+
 Changes 09/24/2025
 * Have streamlined jsp generation code to try and get the jsp size limit down to avoid the 6555 limit crash.
 
