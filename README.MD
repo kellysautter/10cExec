@@ -1,3 +1,6 @@
+Changes 02/23/26
+* Added the Dialog Name to the Dialog Window top caption display. Now displays (Dialog.Window - Window Caption). Requested by Alan S
+
 Changes 01/12/26
 * Bitmap/BitmapBtn did not have HTML5 in the generation of the control (it did on bitmaps in grids). This has been added.
 
