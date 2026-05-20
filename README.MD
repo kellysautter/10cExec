@@ -1,3 +1,21 @@
+Change 05/20/26
+* jsp generation changes for TinyMCE (changed location of tinymce.min.js and added TinyMCESet.js)
+* js generation changes for TinyMCE (add setMLEdits() to actions on page that have tinymce)
+
+Change 04/27/26
+* Move js call processControlActions from the bottom of the jsp file to "_AfterPageLoaded" code in the js file. This
+  is because the new TinyMCE textarea is not disabled correctly unless it is in afterpageloaded (a change was also made to zeidonctrlactions.js in lplr).
+* Changed jsp include location of tinymce js code from 
+         "./js/tinymce/jscripts/tiny_mce/tiny_mce.js"
+  to
+         "./js/tinymce/tinymce.min.js"
+  This can be changed with a value in zeidon tools zeidon.ini file if necessary (TinyMCEJavaScript=)
+* JSP change MLEdit log line from info to debug
+  task.log( ).info( "Entity.Attribute: " + strErrorMapValue ) to
+  task.log( ).debug( "Entity.Attribute: " + strErrorMapValue ) 
+* For MLEdit controls with wysiwyg class. We had been not including meSimple if another class...
+
+
 Changes 02/23/26
 * Added the Dialog Name to the Dialog Window top caption display. Now displays (Dialog.Window - Window Caption). Requested by Alan S
 
