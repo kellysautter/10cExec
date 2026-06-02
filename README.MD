@@ -1,3 +1,6 @@
+Changes 06/02/26
+* Changes for jasperreports 7.0.6 version. This affects jasper xls exports and is changes to jsp pages, only when an export action is present.
+
 Change 05/20/26
 * jsp generation changes for TinyMCE (changed location of tinymce.min.js and added TinyMCESet.js)
 * js generation changes for TinyMCE (add setMLEdits() to actions on page that have tinymce)
