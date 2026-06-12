@@ -1,3 +1,8 @@
+Changes 06/16/2026
+* Added alternate jsp generation for bootstrap5. This requires a zeidon.ini insertion line of the following.
+;; at the GMC we are moving to bootstrap 5. This needs some different jsp generation.
+Bootstrap5=Y
+
 Changes 06/02/26
 * Changes for jasperreports 7.0.6 version. This affects jasper xls exports and is changes to jsp pages, only when an export action is present.
 
