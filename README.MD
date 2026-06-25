@@ -1,5 +1,5 @@
 Changes 06/25/2026
-* Changed the code in tzwebgl2.vml to use text-start/text-end for bootstrap5 when we automatically add "text-end" in generating jsp <td for grids.
+* Changed the generation code to use text-start/text-end instead of text-right/text-left for bootstrap5.
 
 Changes 06/16/2026
 * Added alternate jsp generation for bootstrap5. This requires a zeidon.ini insertion line of the following.
