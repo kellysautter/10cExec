@@ -1,3 +1,6 @@
+Changes 06/26/2026
+* More changes for bootstrap5 grid text-end/start css in header.
+
 Changes 06/25/2026
 * Changed the generation code to use text-start/text-end instead of text-right/text-left for bootstrap5.
 
