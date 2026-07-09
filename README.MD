@@ -1,3 +1,6 @@
+Changes 07/09/26
+* Added new code for Tomcat 11 and file upload. The upload code is now in the upload button action. Now uses request.getPart("wFileName"). Issues with uploading large files.
+
 Changes 06/26/2026
 * More changes for bootstrap5 grid text-end/start css in header.
 
