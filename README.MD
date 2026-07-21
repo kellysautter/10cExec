@@ -1,3 +1,6 @@
+Change 07/21/26
+* Changes in Compiler Spec. Actions to rebuild the different meta data (DTE/XLP/XODs/JSP/JAVA). And a button to rebuild all of the lplr meta data.
+
 Change 07/15/26
 * More Tomcat 11 change/fixes
 
