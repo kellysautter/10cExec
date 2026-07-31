@@ -1,3 +1,6 @@
+Change 07/31/26
+* A change to buildlplr.exe (keep the window from displaying)
+
 Change 07/21/26
 * Changes in Compiler Spec. Actions to rebuild the different meta data (DTE/XLP/XODs/JSP/JAVA). And a button to rebuild all of the lplr meta data.
 
