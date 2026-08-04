@@ -1,3 +1,6 @@
+Change 08/04/26
+* Fix for upload file when using KZXMLPGO.Session.PrintFileName
+
 Change 07/31/26
 * A change to buildlplr.exe (keep the window from displaying)
 
