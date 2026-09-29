@@ -1,3 +1,6 @@
+Change 09/29/26 - (version 1.2)
+* Updated the Help->About to have the latest 10c version and the date it was updated.
+
 Change 08/04/26
 * Fix for upload file when using KZXMLPGO.Session.PrintFileName
 
