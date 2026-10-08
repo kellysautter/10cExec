@@ -1,3 +1,12 @@
+Change 10/08/26 - (version 1.3)
+* Changes to the jsp generation code for the survey to use new attribute values in SurveyQuestionaire entity
+  DisplayAllOnOnePage - Instead of displaying each SurveyQuestionGroup on a different page, display all on one page
+  NoSubmitButton - Do not display a submit button
+  SubmitButtonText - Alternate text for the submit button (otherwise "Submit Survey")
+  NextButtonText - Alternate text for the next button (otherwise "Next")
+  PreviousButtonText - Alternate text for the previous button (otherwise "Prev")
+ 
+
 Change 09/29/26 - (version 1.2)
 * Updated the Help->About to have the latest 10c version and the date it was updated.
 
