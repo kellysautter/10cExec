@@ -1,3 +1,7 @@
+Change 10/13/26 - (version 1.4)
+* Fix to the vml to java generation process. When a object name was long, the "public class ..." definition name
+  in the java file was being concatenated with the xpj datetime. An example was hfifusion vClientDBMemberTotal.VML.
+
 Change 10/08/26 - (version 1.3)
 * Changes to the jsp generation code for the survey to use new attribute values in SurveyQuestionaire entity
   DisplayAllOnOnePage - Instead of displaying each SurveyQuestionGroup on a different page, display all on one page
