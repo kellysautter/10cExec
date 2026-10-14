@@ -1,3 +1,7 @@
+Change 10/14/26 - (version 1.5)
+* More changes to the survey jsp generation. Now looks at SurveyQuestionGroup.DoNotDisplayHeading and does not show the SurveyQuestionGroup.Name if "Y". 
+* Also, we have a new question type of "Q" which displays only the question text, it does not create any input field(s) for the user to answer.
+
 Change 10/13/26 - (version 1.4)
 * Fix to the vml to java generation process. When a object name was long, the "public class ..." definition name
   in the java file was being concatenated with the xpj datetime. An example was hfifusion vClientDBMemberTotal.VML.
